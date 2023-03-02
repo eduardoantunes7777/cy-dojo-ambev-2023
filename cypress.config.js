@@ -8,7 +8,7 @@ module.exports = defineConfig({
       on('task', verifyDownloadTasks);
 
     },
-
+    baseUrl: 'https://homolog-hbnfe-portal.ambev.com.br/#!/'
   },
   video: false
 });
